@@ -1,0 +1,16 @@
+body {
+  background-image: url(../img/marynfabian.jpg);
+  background-size: cover;
+}
+
+.information {
+  background: rgba(255, 255, 255, .33);
+  text-align: center;
+}
+
+.center {
+   position: absolute;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -0%)
+}
