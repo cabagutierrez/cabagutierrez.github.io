@@ -33,6 +33,7 @@ $(function() {
 			$('#cname').val('');
 			$('#cemail').val('');
 			$('#cevents').val('');
+			$('#cphone').val('');
 			//$('#cguests').val('');
 			//$('#cguestinfo').val('');
 			$('#cmessage').val('');
