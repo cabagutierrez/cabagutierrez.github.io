@@ -7,6 +7,8 @@ $(document).ready(function() {
     else {
       console.log("Remove RVSP");
       $("#rvsp_header").remove();
+      $("#rvsp_button").remove();
+      $("#rvsp_button2").remove();
     }
   });
 
