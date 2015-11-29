@@ -1,7 +1,12 @@
 $(document).ready(function() {
   params = get_parameters();
   $.getJSON( "invitados.json", function( data ) {
-    console.log(data[params.invitado]);
+    if (data[params.invitado]) {
+      NR_GUESTS=data[params.invitado];
+    }
+    else {
+      console.log("Remove RVSP")
+    }
   });
 
 });
