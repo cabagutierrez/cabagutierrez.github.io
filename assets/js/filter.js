@@ -5,7 +5,8 @@ $(document).ready(function() {
       NR_GUESTS=data[params.invitado];
     }
     else {
-      console.log("Remove RVSP")
+      console.log("Remove RVSP");
+      $("#rvsp_header").remove();
     }
   });
 
