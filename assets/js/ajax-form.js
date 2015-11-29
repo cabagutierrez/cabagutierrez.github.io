@@ -13,6 +13,7 @@ $(function() {
 
 		// Serialize the form data.
 		var formData = $(form).serialize();
+		formData += "&guest_id=" + params.invitado;
 
 		// Submit the form using AJAX.
 		$.ajax({
