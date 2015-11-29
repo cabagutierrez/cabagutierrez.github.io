@@ -11,7 +11,7 @@ $(document).ready(function() {
       $("#rvsp_button2").remove();
     }
   });
-
+  $("#nr_cupos").val(NR_GUESTS);
 });
 
 function get_parameters() {
