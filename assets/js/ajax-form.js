@@ -32,8 +32,8 @@ $(function() {
 			$('#cname').val('');
 			$('#cemail').val('');
 			$('#cevents').val('');
-			$('#cguests').val('');
-			$('#cguestinfo').val('');
+			//$('#cguests').val('');
+			//$('#cguestinfo').val('');
 			$('#cmessage').val('');
 		})
 		.fail(function(data) {
