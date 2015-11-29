@@ -10,8 +10,8 @@ $(document).ready(function() {
       $("#rvsp_button").remove();
       $("#rvsp_button2").remove();
     }
+    $("#nr_cupos").val(NR_GUESTS);
   });
-  $("#nr_cupos").val(NR_GUESTS);
 });
 
 function get_parameters() {
