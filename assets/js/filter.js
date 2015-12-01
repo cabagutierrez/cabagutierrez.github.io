@@ -1,8 +1,12 @@
 $(document).ready(function() {
   params = get_parameters();
+
   $.getJSON( "invitados.json", function( data ) {
     if (data[params.invitado]) {
       NR_GUESTS=data[params.invitado];
+      $('#rvsp_header').css('visibility', 'visible');
+      $('#rvsp_button').css('visibility', 'visible');
+      $('#rvsp_button2').css('visibility', 'visible');
     }
     else {
       console.log("Remove RVSP");
